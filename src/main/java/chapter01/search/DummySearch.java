@@ -6,8 +6,8 @@ package chapter01.search;
 public class DummySearch implements Searcher {
 
     @Override
-    public int search(int x, int[] sortedData, int ignored) {
-        for (int element : sortedData) {
+    public int search(int x, int[] data, int ignored) {
+        for (int element : data) {
             if (element == x) return element;
         }
         return -1;

@@ -5,6 +5,6 @@ package chapter01.search;
  */
 public interface Searcher {
 
-    int search(int x, int[] sortedData, int numberOfThreads);
+    int search(int x, int[] data, int numberOfThreads);
 
 }
