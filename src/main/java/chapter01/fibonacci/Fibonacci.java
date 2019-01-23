@@ -18,15 +18,7 @@ public class Fibonacci extends Thread {
 
     @Override
     public void run() {
-        calculate();
-
-    }
-
-    private int calculate() {
-        Fibonacci fibonacci = new Fibonacci(value);
-        Fibonacci fibonacci2 = new Fibonacci(value);
-        fibonacci.calculate();
-        return 0;
+//        if ()
     }
 
     public int getResult() {
